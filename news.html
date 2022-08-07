@@ -13,6 +13,7 @@
     <!-- style.css(공통) -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/main-news.css">
     <!-- mobile.css -->
     <link 
     rel="stylesheet" 
@@ -40,8 +41,8 @@
     <div class="tab">
         <div class="container-n">
             <ul class="tab-btn">
-                <li class="news-btn"><a href="#">NEWS</a></li>
-                <li class="noti-btn"><a href="#">공지사항</a></li>
+                <li class="news-btn on"><a href="#news" id="news-btn">NEWS</a></li>
+                <li class="noti-btn"><a href="#noti" id="noti-btn">공지사항</a></li>
             </ul>
         </div> <!-- container -->
     </div>
@@ -57,7 +58,7 @@
     </div>
 
     <!-- 카드 뉴스 목록 -->
-    <div class="news-container container-n">
+    <div class="news-container container-n tab_contents on" id="news">
     <div class="card">
         <div class="img">
         </div>
@@ -95,6 +96,89 @@
         </div>
       </div> <!-- card -->
     </div> <!-- container -->
+
+    <!-- 공지사항 목록 -->
+    <div id="board-list noti" class="tab_contents">
+      <div class="container-n">
+          <table class="board-table">
+              <thead>
+              <tr>
+                  <th scope="col" class="th-num">번호</th>
+                  <!-- <th scope="col" class="th-title">제목</th>
+                  <th scope="col" class="th-date">등록일</th> -->
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                  <td>1</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.07.13</td> -->
+              </tr>
+
+              <tr>
+                  <td>2</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+
+              <tr>
+                  <td>3</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              <tr>
+                  <td>4</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              <tr>
+                  <td>5</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              <tr>
+                  <td>6</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              <tr>
+                  <td>7</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              <tr>
+                  <td>8</td>
+                  <th>
+                    <a href="#!">개인정보 처리방침 변경사항 안내</a>
+                    <p><span>작성일:</span> 2022.08.06</p>
+                  </th>
+                  <!-- <td>2017.06.15</td> -->
+              </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
 
     <!-- 목록 페이지 -->
     <div class="container">

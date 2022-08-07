@@ -238,3 +238,19 @@
 .page-box ul li a {
     color: #000;
 }
+
+#news {
+    display: none;
+}
+
+#news.on {
+    display: flex;
+}
+
+#noti {
+    display: none;
+}
+
+#noti.on {
+    display: block;
+}
