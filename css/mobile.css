@@ -1,0 +1,7 @@
+/* mobile.css */
+.search .search-box {
+    outline: 1px solid #000;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
